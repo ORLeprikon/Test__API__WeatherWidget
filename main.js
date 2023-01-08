@@ -1,4 +1,7 @@
 
+alert('Скрипт работает');
+
+
 const cityName = document.getElementById('cityName');
 const search = document.getElementById('search');
 const searchValue = document.getElementById('searchValue');
