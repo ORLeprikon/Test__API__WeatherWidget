@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Погода</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="weather__inf">
+			<div class="weather__header">
+				<div class="weather__main">
+					<div class="weather__city" id="cityName">- - -</div>
+					<div class="weather__status" id="status">- - -</div>
+				</div>
+
+				<div class="weather__icon">
+					<img alt="" id="icon">
+				</div>
+			</div>
+
+			<div class="weater__footer">
+					<div class="weather__temp">
+						Температура: 
+						<div class="weather__temp-value">- - -</div>
+					</div>
+					<div class="weather__feels-like">
+						Відчувається як:
+						<div class="weather__feels-like-value">- - -</div>
+					</div>
+				</div>
+		</div>
+
+		
+
+		<div class="weather__parameters">	
+			<div class="weather__search-container">
+				<input type="text" placeholder="Пошук Міста" class="text__search" id="searchValue">
+				<button class="butt__search" id="search">Пошук</button>
+			</div>
+
+			<div class="weather__info">
+				<div class="weather__wind">
+					<p>Вітер:</p>
+					<div id="wind">- -</div>
+				</div>
+				<div class="weather__pressure">
+					<p>Тиск:</p>
+					<div id="pressure">- -</div>
+				</div>
+				<div class="weather__humidity">
+					<p>Вологість:</p>
+					<div id="humidity">- -</div>
+				</div>
+				<div class="weather__visibility">
+					<p>Видимість:</p>
+					<div id="visibility">- -</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	
+	<script src="main.js"></script>
+</body>
+
+</html>
